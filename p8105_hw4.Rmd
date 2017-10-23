@@ -1,6 +1,6 @@
 ---
-title: "p8105_hw4_ss5422.Rmd"
-author: Shan-Shan Song, ss5422@cumc.columbia.edu
+title: "p8105_hw4.Rmd"
+author: Shan-Shan Song, song.shanshan@columbia.edu
 date: DUE 2017-10-30, 1pm
 output:
   html_document:
@@ -28,4 +28,4 @@ prob1_data = read_csv("./FAS_pups.csv") %>%
 
 
 ***
-_HW4 DONE - Shan-Shan Song (ss5422@cumc.columbia.edu), Oct 30, 2017_
+_HW4 DONE - Shan-Shan Song (song.shanshan@columbia.edu), Oct 30, 2017_
