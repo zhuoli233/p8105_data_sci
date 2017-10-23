@@ -1,0 +1,31 @@
+---
+title: "p8105_hw4_ss5422.Rmd"
+author: Shan-Shan Song, ss5422@cumc.columbia.edu
+date: DUE 2017-10-30, 1pm
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+hitheme: tomorrow
+highlighter: highlight.js
+---
+
+```{r preparation}
+# load libs
+library(tidyverse)
+library(janitor)
+```
+
+## Problem 1 - Pups dataset
+
+```{r prob1_by_song}
+prob1_data = read_csv("./FAS_pups.csv") %>%
+  clean_names() %>%
+  gather(key = pd_landmark, value = pd_outcome, pd_ears:pd_walk) %>% 
+  na.omit()
+```
+
+
+***
+_HW4 DONE - Shan-Shan Song (ss5422@cumc.columbia.edu), Oct 30, 2017_
