@@ -1,14 +1,10 @@
 ---
-title: "p8105_hw4.Rmd"
+title: "p8105_hw4_p1.Rmd"
 author: Shan-Shan Song, song.shanshan@columbia.edu
 date: DUE 2017-10-30, 1pm
-output:
-  html_document:
-    toc: true
-    toc_depth: 3
-    toc_float: true
 hitheme: tomorrow
 highlighter: highlight.js
+output: rmarkdown::github_document
 ---
 
 ```{r preparation}
